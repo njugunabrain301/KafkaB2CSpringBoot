@@ -14,3 +14,4 @@ ngrok
 - Start mongodb server locally (use port 27017)
 - Start ngrok and copy base url to DarajaUtils class
 - Import poject into Java IDE, build project and run
+- Open your browser and access the application on localhost:8080

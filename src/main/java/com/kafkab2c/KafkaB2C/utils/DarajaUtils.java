@@ -40,11 +40,14 @@ public class DarajaUtils {
     /** Initiator name used for API requests. */
     public final static String initiatorName = "testapi";
 
+    /** Public URL for the application. */
+    public final static String baseURL = "https://d401-102-216-154-25.ngrok-free.app";
+
     /** URL for receiving the result of the API callback. */
-    public final static String resultURL = "https://d401-102-216-154-25.ngrok-free.app/api/callback";
+    public final static String resultURL = baseURL+"/api/callback";
 
     /** URL for receiving the timeout response. */
-    public final static String queueTimeOutURL = "https://d401-102-216-154-25.ngrok-free.app/api/timeout";
+    public final static String queueTimeOutURL = baseURL+"/api/timeout";
 
     /** Initiator password used for API requests. */
     private static String initiatorPassword = "Safaricom3021#";

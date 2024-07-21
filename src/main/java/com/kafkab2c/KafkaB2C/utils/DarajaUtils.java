@@ -156,7 +156,6 @@ public class DarajaUtils {
         RestTemplate restTemplate = new RestTemplate();
         try {
             ResponseEntity<String> response = restTemplate.postForEntity(darajaApiUrl + "/mpesa/transactionstatus/v1/query", entity, String.class);
-            System.out.println(response.getBody());
 
             return new B2CSynchronousResponse(response.getBody());
         } catch (Exception e) {
